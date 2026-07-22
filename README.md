@@ -1,25 +1,30 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + Tailwind
 
 ```
 MyPorto
-├── node_modules
-├── public
-│   ├── favicon.svg
-│   └── icons.svg
-├── src
-│   ├── App.css
-│   ├── App.tsx
-│   ├── assets
-│   │   ├── hero.png
-│   │   ├── react.svg
-│   │   └── vite.svg
-│   ├── index.css
-│   └── main.tsx
+MyPorto
+├── README.md
 ├── eslint.config.js
 ├── index.html
 ├── package-lock.json
 ├── package.json
-├── README.md
+├── public
+│   ├── favicon.svg
+│   ├── icons.svg
+│   └── images
+│       └── images.jpg
+├── src
+│   ├── assets
+│   │   ├── hero.png
+│   │   ├── react.svg
+│   │   └── vite.svg
+│   ├── components
+│   │   ├── Button.tsx
+│   │   └── Card.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   └── page
+│       └── App.tsx
 ├── tsconfig.app.json
 ├── tsconfig.json
 ├── tsconfig.node.json
